@@ -46,9 +46,9 @@
             Padding="116,136,116,46"
             SelectionMode="None"
             IsSwipeEnabled="false">
-            <GridViewItem Content="GridViewItem" Margin="0"/>
-            <GridViewItem Content="GridViewItem" Margin="0"/>
-            <GridViewItem Content="GridViewItem" Margin="0"/>
+            <Button BorderThickness="0" Content="math" HorizontalAlignment="Center" Height="250" Width="250"/>
+            <Button BorderThickness="0" Content="eng" FontSize="96" HorizontalAlignment="Center" Height="250" Width="250"/>
+            <Button BorderThickness="0" Content="sci" HorizontalAlignment="Center" Height="250" Width="250"/>
         </GridView>
 
         <!-- Back button and page title -->

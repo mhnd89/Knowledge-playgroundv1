@@ -45,10 +45,33 @@
             Grid.RowSpan="2"
             Padding="116,136,116,46"
             SelectionMode="None"
-            IsSwipeEnabled="false">
-            <Button BorderThickness="0" Content="math" HorizontalAlignment="Center" Height="250" Width="250"/>
-            <Button BorderThickness="0" Content="eng" FontSize="96" HorizontalAlignment="Center" Height="250" Width="250"/>
-            <Button BorderThickness="0" Content="sci" HorizontalAlignment="Center" Height="250" Width="250"/>
+            IsSwipeEnabled="false" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button BorderThickness="0" HorizontalAlignment="Center" Height="419" Margin="0,90,60,0" Width="429" RenderTransformOrigin="3,0.5" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" IsRightTapEnabled="False">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/mathh.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button BorderThickness="0" HorizontalAlignment="Center" Height="420" Margin="0,90,59,0" VerticalAlignment="Center" Width="429">
+                <Button.Background>
+                    <ImageBrush ImageSource="Assets/englsh.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button BorderThickness="0" HorizontalAlignment="Center" Height="416" Margin="0,90,60,0" Width="429">
+                <Button.Background>
+                    <ImageBrush ImageSource="Assets/sci.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+
+
+
+
+
+
+
+
         </GridView>
 
         <!-- Back button and page title -->

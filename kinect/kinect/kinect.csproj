@@ -127,8 +127,8 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="navpage.xaml.cs">
-      <DependentUpon>navpage.xaml</DependentUpon>
+    <Compile Include="navpanelv2.xaml.cs">
+      <DependentUpon>navpanelv2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -157,7 +157,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="navpage.xaml">
+    <Page Include="navpanelv2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

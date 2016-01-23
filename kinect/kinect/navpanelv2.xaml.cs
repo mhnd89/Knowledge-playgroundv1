@@ -26,5 +26,10 @@ namespace kinect
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }
